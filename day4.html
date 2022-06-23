@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 1. Take two numbers and perform all the arithmetic 
+operations over them. */
+let x=10;
+let y=5;
+let z;
+z=x+y;
+document.write("x+y= "+z+"</br>");
+z=x-y;
+document.write("x-y= "+z+"</br>");
+z=x*y;
+document.write("x*y= "+z+"</br>");
+z=x/y;
+document.write("x/y= "+z+"</br>");
+z=x%y;
+document.write("x%y= "+z+"</br>");
+z=x**y;
+document.write("x**y= "+z+"</br>");
+z=--x;
+document.write("--x= "+z+"</br>");
+z=++x;
+document.write("++x= "+z+"</br>");
+
+//output
+/*x+y= 15
+x-y= 5
+x*y= 50
+x/y= 2
+x%y= 0
+x**y= 100000
+--x= 9
+++x= 10
+*/
+/*
+2. Take 2 numbers and 2 strings and perform addition 
+operation on them in same sequence. 
+*/
+let a=1;
+let b=2;
+let str1="vivek ";
+let str2="singh";
+
+document.write(a+b+str1+str2+"</br>");
+
+//output
+// 3vivek singh
+/* Take 2 Strings and 2 numbers and perform addition 
+operation on them in same sequence. */
+document.write(str1+str2+a+b+"</br>"); 
+//output
+//vivek singh12
+
+
+/* 4. Write an operation to get its result as NaN. */
+
+let num1=NaN;
+let number2=NaN+2;
+document.write("NaN+2= "+number2+"</br>");
+//output
+//NaN+2= NaN
+
+/* 5. Take 2 boolean variables as true and false and perform 
+And and Or logical operation over them and print the 
+result as well as operation */
+let bool1=true;
+let bool2=false;
+let res;
+res=bool1 && bool2;
+document.write("True && Flase= "+res+"</br>");
+res=bool1 || bool2;
+document.write("True || Flase= "+res+"</br>");
+
+//output
+/* 
+True && Flase= false
+True || Flase= true
+*/
+/*
+6. Take 2 variables and compare them using == and 
+=== such that result of both the comparisons operation 
+is not equal.*/
+   let var1=1;
+   let var2="a";
+   let var3;
+   var3=var1===var2;
+   document.write("var3=var1==va2= "+var3+"</br>");    
+   var3=var1==var2;
+   document.write("var3=var1===va2= "+var3+"</br>");   
+   
+   //output
+   /*
+   var3=var1==va2= false
+   var3=var1===va2= false
+   */
+    </script>
+</body>
+</html>
