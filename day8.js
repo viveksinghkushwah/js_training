@@ -39,7 +39,7 @@ y=[]
 employeedata=[{name:"vivek",age:22,salary:20000},
                 {name:"aa",age:12,salary:12500},
                 {name:"bb",age:7,salary:45058},
-                {name:"ccc",age:14,salary:25000}+,];
+                {name:"ccc",age:14,salary:25000},];
  function sortdata(w,e){
 if (e=="age"){
     let neww=w.sort(function(a,b){return a.age - b.age})   ;
