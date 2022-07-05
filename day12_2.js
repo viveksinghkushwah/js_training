@@ -1,3 +1,5 @@
+/* - Create a function that returns array of employees from a random time from 1 to 2 seconds using async await. */
+
 let arr=["emp5","emp2","emp1","emp4","emp3",]
     
 function arrr(x){
@@ -21,3 +23,6 @@ async function fout(y){
 }
 
 fout(arr);
+/* 
+output
+[ 'emp5', 'emp2', 'emp1', 'emp4', 'emp3' ] */
